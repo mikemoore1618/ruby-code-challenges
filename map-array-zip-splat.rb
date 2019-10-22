@@ -36,6 +36,8 @@ rangers = [
   'Mazara'
 ]
 
+headers.zip(astros, rangers)
+
 def position_filter(headers, *data)
 end
 
