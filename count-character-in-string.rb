@@ -1,0 +1,1 @@
+puts "Melanie is a noob".count('a')  #=> 2
