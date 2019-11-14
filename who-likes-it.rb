@@ -8,7 +8,7 @@
 # likes ["Max", "John", "Mark"] // must be "Max, John and Mark like this"
 # likes ["Alex", "Jacob", "Mark", "Max"] // must be "Alex, Jacob and 2 others
 
-# --------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------
 
 # if likes = nil, likes = [], then return "no one likes this"
 # if likes.length === 1, likes = ["Mike"], then return "Mike likes this"
