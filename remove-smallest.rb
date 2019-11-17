@@ -13,3 +13,16 @@
 # remove_smallest([5,3,2,1,4]) = [5,3,2,4]
 # remove_smallest([2,2,1,2,1]) = [2,2,2,1]
 
+
+# -------------------------------------------------------------------------------------------------------------
+# Psuedo Code
+# itterate through array using index position - for each loop
+# compare array indexes 
+# if index value is lowest - pop
+
+def remove_smallest(numbers)
+    return [] if numbers.empty?
+    x = numbers.clone
+    x.delete_at(x.index(x.min))
+    x
+  end
